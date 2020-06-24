@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    
+    
+}
+body {
+    margin: 10px;
+    padding: 0px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 3.5em;
+}
+/* Simple Responsive Framework. */
+.row {
+   width: 100%;
+   
+}
+
+ /********** Desktop view **********/
+@media (min-width: 992px) {
+ .desktop {
+  float: left;
+  
+  width: 33.33%;
+ 
+  
+  
+ }
+
+}
+ /********** Tablet view **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .tablet-6,.tablet-12 {
+    float: left;
+   
+  }
+  
+  .tablet-6 {
+    width: 50%;
+  }
+  
+  .tablet-12 {
+    width: 100%;
+  }
+}
+/*************Mobile view*************/
+@media (max-width: 767px) {
+  .mobile {
+    float: left;
+   
+    width:100%
+  }
+  
+} 
+.box{
+    background-color: gray;
+   
+    margin: 10px;
+    border: 1px solid black;
+}
+#title1 {
+    float:right;
+    margin:0px;
+    padding:1px;
+    border: 1px solid black;
+    background-color: red;
+    width:25%;
+    height: 30px;
+    text-align: center;
+    color: aliceblue;
+    
+}
+.box > p{
+    clear : right ;
+    padding: 10px;
+}
+#title1 > p,#title2 > p,#title3 > p {
+    margin: 0px;
+    font-size: 125%;
+}
+#title2 {
+    float:right;
+    margin:0px;
+    padding:1px;
+    border: 1px solid black;
+    background-color: green;
+    width:25%;
+    height: 30px;
+    text-align: center;
+    color: aliceblue;
+    
+}
+#title3 {
+    float:right;
+    margin:0px;
+    padding:1px;
+    border: 1px solid black;
+    background-color: goldenrod;
+    width:25%;
+    height: 30px;
+    text-align: center;
+    color: black;
+    
+}
