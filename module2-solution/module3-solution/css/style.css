@@ -1,0 +1,26 @@
+body {
+    background-color: rgba(232, 238, 243, 0.534);
+}
+#header-nav {
+    
+    border-radius: 0;
+    border: 0;
+  }
+h2{
+   
+    color:rgb(8, 8, 8);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.box {
+    background-color: rgba(70, 67, 67, 0.199);
+    color: #000000;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 1.2em;
+}
+.navbar-brand {
+    font-size: 2em;
+}
